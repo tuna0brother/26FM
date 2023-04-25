@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ko" style="overflow: hidden; height: 100%">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>학생회 소개</title>
+
+    <style>
+        @import url('https://webfontworld.github.io/pretendard/Pretendard.css');
+        body {
+            margin: 0; 
+            font-family: 'Pretendard';
+        }
+        header {overflow: hidden;
+                width: 100%;
+                height: 110px;
+                background-color: rgba(0, 0, 0, 0.3);
+        }
+        header a{
+                 float: left;
+                 display: block;
+        }
+        img#logo {height: 70px;
+            margin-top: 17px;
+            margin-left: 40px;
+        }
+        a#int{text-decoration: none;
+              color: #ffffff;
+              font-size: 20px;
+              font-weight: 500;
+              margin: 44px 50px 0px 100px;
+        }
+        a#int:hover {text-decoration: underline;
+        }
+        a#insta {
+                 padding: 15px;
+        }
+        img#insta {width: 23px;
+                  height: 23px;
+                margin-top: 29px;
+        }
+        a#insta:hover img#insta {background-color: rgba(220, 47, 255, 0.4);
+        }
+        @media screen and (max-width: 1440px) {
+        a#int, a#insta {
+                        float: right;
+        }
+        }
+
+
+        aside{
+              position:absolute;
+              margin: 50px 100px;
+              height: 82%;
+              display: block;
+              float: left;
+              width: 290px;
+              border-right: solid 1px #000000;
+        }
+        aside a{
+                position: relative;
+                margin: 100px 0px;
+                display: block;
+                width: 300px;
+                float: none;
+
+                text-decoration: none;
+                font-size: 30px;
+        }
+        aside a:hover{
+                      font-size: 40px;
+        }
+        @media screen and (max-width: 1440px) {
+        aside{
+              margin: 0 10px;
+              height: auto;
+              float: none;
+              width: 100%;
+              border-right: none;
+              border-bottom: solid 1px #000000;
+        }
+        aside a{
+                margin: 0px 50px;
+                padding: 20px 50px;
+                width: auto;
+                float:left;
+                font-size: 20px;
+        }
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html" id="logo" class="header"><img id="logo" src="img/logo.png"></a>
+        <a href="introduce.html" id="int" class="header" title="스물여섯 번째 FM학생회">학생회 소개</a>
+        <a href="https://instagram.com/dcd_26th_fm_uou?igshid=ZDdkNTZiNTM=" id="insta" class="header" title="dcd_26th_fm_uou" target="_blank"><img id="insta" src="img/instagram.png"></a>
+    </header>
+    <aside>
+        <a href="">1</a>
+        <a href="">2</a>
+        <a href="">3</a>
+        <a href="">4</a>
+    </aside>
+</body>
+</html>

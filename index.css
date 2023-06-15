@@ -1,0 +1,24 @@
+@import url("common.css");
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+    height: fit-content;
+}
+div.mainpic {
+            width: 200px;
+            height: 150px;
+}
+article .explain {
+                  width: 100%;
+                  height: 90px;
+                  display: flex;
+                  align-items: center;
+                  justify-content: space-around;
+                  font-family: 메로나;
+                  font-size: 18px;
+}
+article img {
+             width: 100%;
+             height: 100%;
+}

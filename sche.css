@@ -1,0 +1,35 @@
+@import url("hac.css");
+
+ul {
+    font-family: 메로나B;
+}
+li {
+    font-family: 메로나;
+    font-size: 20px;
+    line-height: 160%;
+}
+div#mon-bar {
+             width: 400px;
+             position: fixed;
+             bottom: 155px;
+             display: flex;
+             justify-content: right;
+}
+div#month {
+            width: 180px;
+            height: 115px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+}
+div.month {
+            background-color: aliceblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 55px;
+            height: 55px;
+}
+ul {
+        //display:none;
+}

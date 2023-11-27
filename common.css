@@ -1,0 +1,153 @@
+@font-face {
+        font-family: 빙그레;
+        src: url('font/Binggrae.otf') format('truetype');
+      }
+@font-face {
+        font-family: 빙그레B;
+        src: url('font/Binggrae-Bold.otf') format('truetype');
+      }
+@font-face {
+        font-family: 메로나;
+        src: url('font/BinggraeMelona.otf') format('truetype');
+      }
+@font-face {
+        font-family: 메로나B;
+        src: url('font/BinggraeMelona-Bold.otf') format('truetype');
+      }
+@font-face {
+        font-family: 싸만코;
+        src: url('font/BinggraeSamanco.otf') format('truetype');
+      }
+@font-face {
+        font-family: 싸만코B;
+        src: url('font/BinggraeSamanco-Bold.otf') format('truetype');
+      }
+
+body {
+   margin: 0px;
+   display: flex;
+   justify-content: center;
+   position: relative;
+}
+div#wrap {
+        position:relative;
+        width: 99vw;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+}
+nav {
+   width: 100vw;
+   height: 100px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   position: fixed;
+   top: 0;
+   z-index: 100;
+   background-color: white;
+   font-family: 메로나B;
+}
+div#story {
+        background-image: url(img/icon/Artboard\ 1-100.jpg);
+        background-size: auto 55%;
+        background-repeat: no-repeat;
+        background-position: center;
+}
+div#hac {
+        background-image: url(img/icon/Artboard\ 2-100.jpg);
+        background-size: auto 60%;
+        background-repeat: no-repeat;
+        background-position: center;         
+}
+div.blank {
+        width: 10vw;
+}
+div.center {
+        width: 100px;
+        height: 100px;
+        margin: 0px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        color: black;
+}
+div.tap {
+        width: 35vw;
+        height: 100px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        color: black;
+}
+div#logo {
+        background-image: url(img/logo.jpg);
+        background-size: 100% 100%;
+}
+div#mainpart {
+                width: 99vw;
+                border-top: 1px solid black;
+                position: relative;
+                top: 100px;
+                margin-bottom: 200px;
+                font-family: 메로나;
+}
+a {
+   text-decoration: none;
+}
+div#copywrap {
+                width: 100vw;
+                height: auto;
+                position: absolute;
+                bottom: 0;
+}
+div#copyright {
+                width: 100vw;
+                height: 90px;
+                padding-bottom: 10px;
+                display: flex;
+                justify-content: right;
+                align-items: end;
+                text-decoration: overline;
+}
+div.align {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+@media screen and (min-width: 1000px) {
+                                        div#wrap {
+                                                width: 50vw;
+                                        }
+                                        nav {
+                                                width: 50vw;
+                                                height: 120px;
+                                        }
+                                        div.blank {
+                                                width: 1vw;
+                                        }
+                                        div.center {
+                                                width: 120px;
+                                                height: 120px;
+                                        }
+                                        div.tap {
+                                                width: auto;
+                                                height: 120px;
+                                        }
+                                        div#mainpart {
+                                                width: 50vw;
+                                                border-top: 1px solid black;
+                                                position: relative;
+                                                top: 130px;
+                                                margin-bottom: 250px;
+                                        }
+                                        div#copywrap {
+                                                width: 50vw;
+                                        }
+                                        div#copyright {
+                                                width: 50vw;
+                                                height: 105px;
+                                                padding-bottom: 15px;
+                                        }
+}

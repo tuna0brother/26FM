@@ -1,0 +1,39 @@
+@import url("hac.css");
+div#fmwrap {border: 1px solid black;
+            width: 100%;
+            height: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+}
+div.fm {
+        border-style: outset;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        margin: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 메로나;
+        cursor:pointer;
+}
+div#fm글 {
+        width: 100%;
+        margin-top: 50px;
+}
+div.fmB {
+    display: none;
+}
+div.FMarticle {
+                width: 49vw;
+}
+
+@media screen and (min-width: 1000px) {
+                div.FMarticle {
+                        width: 25vw;
+                }
+                div.FMarticle img {
+                        width: 25vw;
+                }
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2023 DCD 26th FM</title>
+
+    <style>
+        @import url(FM.css);
+
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <nav>
+            <div class="blank"></div>
+            <a href="story.html"><div class="tap" id="story"><h2>스토리</h2></div></a>
+            <a href="index.html"><div class="center" id="logo"></div></a>
+            <a href="hac.html"><div class="tap" id="hac"><h2>학생회</h2></div></a>
+            <div class="blank"></div>
+        </nav>
+
+        <div id="mainpart">
+            <div id="fmwrap">
+                <div class="fm" id="fm1" onclick="fmM()">FM 뜻</div>
+                <div class="fm" id="fm2" onclick="logoM()">로고 해석</div>
+            </div>
+            <div id="fm글">
+                <div id="FM뜻" class="fmB">
+                <div style="text-align: center;"><h2>FM 의미</h2><br>
+                Feel More의 약자로,<br><br>
+                대학생활 동안 많은 것을 느끼며 성장하자는 뜻</div>
+            </div>
+            <br><br>
+            <div id="로고해석" class="fmB">
+                <div class="FMarticle" style="float: left;">
+                    <img src="img/logo.jpg" style="width: 100%;">
+                </div>
+                <div class="FMarticle" style="float: right; height: 380px; display: flex; align-items: center;">
+                    <h4>나뭇잎: 시작<br><br>
+                    나무모양: 성장<br><br>
+                    나뭇잎과 연결된 F<br><br>
+                    박동측정기 모양=M: 가슴이 뛰는 대학생활<br><br><br>
+                    잎무리 가로지르는 선: M<br><br>
+                    잎무리 전체 모양=하트: Feel<br><br>
+                    </h4>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="blank"></div>
+            <a href="sche.html"><div class="tap"><h2>일정</h2></div></a>
+            <a href="FM.html"><div class="center"><h2>FM</h2></div></a>
+            <a href="acc.html"><div class="tap"><h2>장부</h2></div></a>
+            <div class="blank"></div>
+        </footer>
+        <div id="copywrap">
+            <div id="copyright"><h5>ⓒ 2023 LEE DONG WON. All rights reserved.</h5></div>
+            </div>
+    </div>
+
+    <script>
+        function fmM() {
+            var fm뜻Div = document.getElementById("FM뜻");
+             var 로고해석Div = document.getElementById("로고해석");
+                fm뜻Div.style.display = "block";
+                로고해석Div.style.display = "none";
+        }
+        function logoM() {
+            var fm뜻Div = document.getElementById("FM뜻");
+            var 로고해석Div = document.getElementById("로고해석");
+            fm뜻Div.style.display = "none";
+            로고해석Div.style.display = "block";
+        }
+    </script>
+</body>
+</html>

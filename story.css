@@ -1,0 +1,27 @@
+@import url("common.css");
+
+div#행사명 {
+            display: flex;
+            justify-content: space-between;
+}
+div.행사 {
+        margin-top: 20px;
+        margin-bottom: 50px;
+        width: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+}
+div#mainpart img {
+                width: 49%;
+}
+h5 {
+        text-align: center;
+}
+
+@media screen and (max-width: 999px) {
+    img#정렬 {
+            width: 51%;        
+    }   
+}

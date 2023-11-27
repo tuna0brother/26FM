@@ -1,0 +1,51 @@
+@import url("common.css");
+
+div#mainpart {
+        display: flex;
+        justify-content: center;
+}
+article {
+    width: 99vw;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+div.mainpic {
+            width: 49vw;
+            height: auto;
+}
+article .explain {
+                  width: 99%;
+                  height: 90px;
+                  display: flex;
+                  align-items: center;
+                  justify-content: space-around;
+                  font-family: 메로나;
+                  position: relative;
+}
+article img {
+             position: relative;
+             width: 100%;
+             height: 100%;
+}
+div#leftnav {
+            display: none;
+}
+
+@media screen and (min-width: 1000px) {
+                                        article {
+                                                width: 50vw;
+                                        }
+                                        div.mainpic {
+                                                width:50vw;
+                                        }
+                                        article .explain {
+                                                height: 105px;
+                                        }
+                                        div#leftnav {
+                                                display: block;
+                                                position: absolute;
+                                                top: 35px;
+                                                right: 50vw;
+                                        }
+}

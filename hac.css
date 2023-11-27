@@ -1,0 +1,47 @@
+@import url("common.css");
+
+span {
+      color:rgb(255, 0, 0);
+}
+footer {
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 메로나B;
+
+    position: fixed;
+    bottom: 50px;
+    border-top: 1px solid black;
+    background-color: white;
+ }
+div#text {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+ }
+div#copyright {
+      width: 100vw;
+      height: 45px;
+      padding-bottom: 5px;
+      display: flex;
+      justify-content: right;
+      align-items: end;
+      text-decoration: overline;
+}
+
+@media screen and (min-width: 1000px) {
+                  footer {
+                        width: 50vw;
+                        bottom: 60px;
+                  }
+                  div#copywrap {
+                        width: 50vw;
+                }
+                div#copyright {
+                        width: 50vw;
+                        height: 45px;
+                        padding-bottom: 15px;
+                }
+}

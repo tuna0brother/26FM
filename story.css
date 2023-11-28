@@ -16,8 +16,11 @@ div.행사 {
 div#mainpart img {
                 width: 49%;
 }
-h5 {
+h4, h5 {
         text-align: center;
+}
+div.text {
+        width: 45vw;
 }
 
 @media screen and (max-width: 999px) {
